@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/black_overlay"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:background="#ffffffff"
+        android:id="@+id/amountofItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="16dp"
+        android:hint="@string/Amount"
+        android:inputType="number" />
+    
+    <TextView
+        android:textColor="#ffff0000"
+        android:id="@+id/messageItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/amountofItem"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"
+        android:text="" />
+    
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffffff"
+        android:id="@+id/currentMoney"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/amountofItem"
+        android:layout_marginTop="10dip"
+        android:layout_marginBottom="10dip"
+        android:textSize="20sp"
+        android:text="@string/CurrentMoney" />
+
+     <LinearLayout android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below = "@+id/currentMoney"
+       >
+         <Button
+        android:id="@+id/button2shop"
+        android:textColor="#ff00ff00"
+        android:layout_width="150dip"
+        android:layout_height="40dip"   
+        android:onClick="buySellButton"
+        style="@style/btnStyleBlackpearl"
+        android:text="@string/button_buysell" />
+     
+        <Button
+        android:id="@+id/button1shop"
+        android:textColor="#ff00ff00"
+        android:layout_width="150dip"
+        android:layout_height="40dip"
+        android:layout_marginLeft="10dip"
+        android:onClick="backButton"
+        style="@style/btnStyleBlackpearl"
+        android:text="@string/button_back" />
+    </LinearLayout>
+        
+</RelativeLayout>

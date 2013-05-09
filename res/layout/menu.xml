@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main"
+    android:orientation="vertical" >
+    
+     <Button
+        android:layout_gravity="center"
+        android:id="@+id/button2"
+        android:layout_width="150dip"
+        android:layout_height="40dip"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dip"
+        android:onClick="loadButton"
+        style="@style/btnStyleBlackpearl"
+        android:text="@string/button_load" />
+     
+        <Button
+        android:layout_gravity="center"
+        android:id="@+id/button1"
+        android:layout_width="150dip"
+        android:layout_height="40dip"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/button2"
+        android:onClick="newButton"
+        style="@style/btnStyleBlackpearl"
+        android:text="@string/button_new" />
+     
+      <Button
+        android:layout_gravity="center"
+        android:id="@+id/button3"
+        android:layout_width="150dip"
+        android:layout_height="40dip"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/button2"
+        android:layout_marginTop="10dip"
+        android:onClick="helpButton"
+        style="@style/btnStyleBlackpearl"
+        android:text="@string/button_help" />
+      
+        <Button
+        android:layout_gravity="center"
+        android:id="@+id/button4"
+        android:layout_width="150dip"
+        android:layout_height="40dip"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/button3"
+        android:layout_marginTop="10dip"
+        android:onClick="exitButton"
+        style="@style/btnStyleBlackpearl"
+        android:text="@string/button_exit" />
+
+</RelativeLayout>

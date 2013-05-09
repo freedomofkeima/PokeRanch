@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/new_help_load"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/loadList"
+        android:layout_width="match_parent"
+        android:layout_height="185dp"
+        android:layout_weight="0.09"
+        android:textSize="3sp" >
+
+    </ListView>
+
+        <LinearLayout android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+       >
+    
+     <Button
+        android:id="@+id/savebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/btnStyleBlackpearl"
+        android:layout_marginRight="10dip"
+        android:onClick="saveGame"
+        android:text="@string/save_btn" />
+
+    <Button
+        android:id="@+id/loadbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        style="@style/btnStyleBlackpearl"
+        android:layout_marginRight="10dip"
+        android:onClick="loadGame"
+        android:text="@string/load_btn" />
+
+    <Button
+        android:id="@+id/backbtn"
+        style="@style/btnStyleBlackpearl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dip"
+        android:gravity="center_vertical|center_horizontal"
+        android:onClick="backtoGame"
+        android:text="@string/back_btn" />
+        
+        </LinearLayout>
+    
+</LinearLayout>

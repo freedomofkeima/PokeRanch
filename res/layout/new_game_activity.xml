@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/new_help_load"
+    android:orientation="vertical" >
+   
+ 
+       <RadioGroup
+        android:id="@+id/radioPoke"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        
+           <RadioButton
+               android:id="@+id/radioButton1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:checked="true"
+               android:text="Pixie"
+               android:textColor="#ffffffff"
+             />
+           
+          <RadioButton
+           android:id="@+id/radioButton2"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textColor="#ffffffff" 
+           android:text="Dragone" />
+
+       <RadioButton
+           android:id="@+id/radioButton3"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textColor="#ffffffff" 
+           android:text="Mochie" />
+    
+       </RadioGroup>
+       
+    <EditText
+        android:id="@+id/editText1"
+        android:background="#ffffffff" 
+        android:layout_width="250dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_centerInParent="true"
+        android:text="Okep"
+        android:ems="10"
+        android:inputType="textNoSuggestions" >
+        <requestFocus />
+    </EditText>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/editText1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dip"
+            android:text="Your Name:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffffffff" />
+        
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editText1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dip"
+            android:layout_marginBottom="10dip"
+            android:text="Your Pokemon Name:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffffffff" />
+    
+        <EditText
+        android:id="@+id/editText2"
+        android:background="#ffffffff" 
+        android:layout_width="250dip"
+        android:layout_below="@id/textView2"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:text="Poke"
+        android:ems="10"
+        android:inputType="textNoSuggestions" >
+    </EditText>
+    
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editText2"
+        android:layout_centerHorizontal="true"
+        style="@style/btnStyleBlackpearl"
+        android:layout_marginTop="10dip"
+        android:onClick="confirmNameButton"
+        android:text="@string/confirmation_name" />
+
+      <LinearLayout android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_alignParentRight="true"
+       android:layout_alignParentBottom="true"
+       >
+        
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/btnStyleBlackpearl"
+        android:layout_marginTop="10dip"
+        android:layout_marginRight="10dip"
+        android:onClick="backtoMain"
+        android:text="@string/back_main" />
+
+ 
+
+    </LinearLayout>
+
+    
+</RelativeLayout>

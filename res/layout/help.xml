@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/new_help_load"
+    android:orientation="vertical" >
+  
+    
+    <LinearLayout android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+       >
+
+    <Button
+        android:id="@+id/prev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/btnStyleBlackpearl"
+        android:layout_marginRight="10dip"
+        android:text="@string/prev_text" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        style="@style/btnStyleBlackpearl"
+        android:layout_marginRight="10dip"
+        android:text="@string/next_text" />
+    
+        <Button
+        android:id="@+id/back_to_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        style="@style/btnStyleBlackpearl"
+        android:layout_marginRight="10dip"
+        android:onClick="backtoMain"
+        android:text="@string/back_main" />
+
+    
+</LinearLayout>
+
+     <TextView
+         android:id="@+id/textView1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_alignParentRight="true"
+         android:textColor="#ffffffff"
+         android:text="Help Menu"
+         android:textAppearance="?android:attr/textAppearanceLarge"
+         android:textStyle="bold" />
+    
+    <TextSwitcher android:id="@+id/switcher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    
+</RelativeLayout>

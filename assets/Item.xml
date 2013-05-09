@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<id>1</id>
+<name>pocari_sweat</name>
+<price>100</price>
+<effect>healing</effect>
+<cost>50</cost>
+<description>Minuman untuk menambahkan HP sebesar 50 pts</description>
+<id>2</id>
+<name>ponari_sweat</name>
+<price>500</price>
+<effect>healing</effect>
+<cost>150</cost>
+<description>Minuman untuk menambahkan HP sebesar 150 pts</description>
+<id>3</id>
+<name>dragon_up</name>
+<price>1000</price>
+<effect>ressurecting</effect>
+<cost>1</cost>
+<description>Bulu naga untuk membangkitkan salah satu Poke yang memiliki HP sebesar 0</description>
+<id>4</id>
+<name>jamu_tradisional</name>
+<price>500</price>
+<effect>healingMP</effect>
+<cost>50</cost>
+<description>Ramuan untuk menambahkan MP sebesar 50 pts</description>
+<id>5</id>
+<name>monster_ball</name>
+<price>125</price>
+<effect>catching</effect>
+<cost>1</cost>
+<description>Bola yang digunakan untuk menangkap Poke liar</description>
+<id>6</id>
+<name>power-up</name>
+<price>1000</price>
+<effect>statPermanentIncreasing</effect>
+<cost>1</cost>
+<description>Item untuk menambahkan permanen power sebesar 1 point</description>
+<id>7</id>
+<name>defend-up</name>
+<price>1000</price>
+<effect>statPermanentIncreasing</effect>
+<cost>2</cost>
+<description>Item untuk menambahkan permanen defend sebesar 1 point</description>
+<id>8</id>
+<name>acc-up</name>
+<price>1000</price>
+<effect>statPermanentIncreasing</effect>
+<cost>3</cost>
+<description>Item untuk menambahkan permanen akurasi sebesar 1 point</description>
+<id>9</id>
+<name>jimat_okep</name>
+<price>250</price>
+<effect>hypnotize</effect>
+<cost>1</cost>
+<description>Jimat untuk menyembuhkan efek hypnotize</description>
+<id>10</id>
+<name>sangat_de-stun</name>
+<price>250</price>
+<effect>paralyzing</effect>
+<cost>1</cost>
+<description>Benda ini mampu menyembuhkan efek paralyze</description>
+<id>11</id>
+<name>poke_egg</name>
+<price>1000</price>
+<effect>egging</effect>
+<cost>1</cost>
+<description>Telur Random dari Poke</description>
+<id>12</id>
+<name>torch</name>
+<price>100</price>
+<effect>lightning</effect>
+<cost>1</cost>
+<description>Item yang digunakan saat malam hari untuk membuat area liar menjadi terang</description>
+<id>13</id>
+<name>repel</name>
+<price>200</price>
+<effect>repellant</effect>
+<cost>1</cost>
+<description>Item yang digunakan untuk membuat monster di area luar bergerak menjauh</description>

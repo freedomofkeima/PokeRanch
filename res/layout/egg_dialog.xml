@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/new_help_load"
+    android:orientation="vertical" >
+ 
+ 
+       <Spinner
+        android:layout_gravity="center"
+        android:id="@+id/MonsterSlot"
+        android:layout_marginTop="10dp"
+        android:background="#ffffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+        
+        <EditText
+        android:id="@+id/PokeNameDialog"
+        android:background="#ffcccccc" 
+        android:layout_width="250dip"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=""
+        android:ems="10"
+        android:inputType="textNoSuggestions"
+        android:hint="@string/PokeNameHint"
+         >
+        </EditText>
+ 
+      <Button
+        android:id="@+id/btnConfirmEgg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dip"
+        android:onClick="FinishConfirm"
+        style="@style/btnStyleBlackpearl"
+        android:text="@string/confirmation_name" />
+    
+      
+        <TextView
+        android:textColor="#ffff0000"
+        android:id="@+id/messageEgg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:text="" />
+     
+
+ 
+</LinearLayout>

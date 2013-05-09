@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/new_help_load"
+    android:orientation="vertical" >
+
+  
+        <Button
+        android:id="@+id/back_to_main_from_monster"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_vertical|center_horizontal"
+        style="@style/btnStyleBlackpearl"
+        android:layout_marginLeft="10dip"
+        android:onClick="backtoMainfromMonster"
+        android:text="@string/back_main" />
+
+        <TextView
+            android:id="@+id/Monster0"
+            android:background="#CCDDDDDD"   
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:onClick="CodeZero"
+            android:layout_marginLeft="10dip"
+            android:textSize="12sp"
+            android:clickable="true" />
+        
+          <TextView
+            android:id="@+id/Monster1"
+            android:background="#CCDDDDDD"   
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dip"
+            android:layout_marginLeft="10dip"
+            android:textSize="12sp"
+            android:onClick="CodeOne"
+            android:clickable="true" />
+          
+          <TextView
+            android:id="@+id/Monster2"
+            android:background="#CCDDDDDD"   
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:layout_below = "@+id/Monster1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="27dip"
+            android:layout_marginLeft="10dip"
+            android:textSize="12sp"
+            android:onClick="CodeTwo"
+            android:clickable="true" />
+          
+           <TextView
+            android:id="@+id/Monster3"
+            android:background="#CCDDDDDD"   
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:layout_below = "@+id/Monster2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="27dip"
+            android:layout_marginLeft="10dip"
+            android:textSize="12sp"
+            android:onClick="CodeThree"
+            android:clickable="true" />
+           
+          <TextView
+            android:id="@+id/Monster4"
+            android:background="#CCDDDDDD"   
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:layout_toRightOf="@+id/Monster1"
+            android:layout_marginTop="42dip"
+            android:layout_marginLeft="10dip"
+            android:textSize="12sp"
+            android:onClick="CodeFour"
+            android:clickable="true" />
+                      
+         <TextView
+            android:id="@+id/Monster5"
+            android:background="#CCDDDDDD"   
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:layout_below = "@+id/Monster4"
+            android:layout_toRightOf="@+id/Monster1"
+            android:layout_marginTop="47dip"
+            android:layout_marginLeft="10dip"
+            android:textSize="12sp"
+            android:onClick="CodeFive"
+            android:clickable="true" />"
+
+</RelativeLayout>
